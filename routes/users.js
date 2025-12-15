@@ -6,6 +6,10 @@ router.post('/',(req, res) => {
     res.post("Envoie de l'utilisateur")
 })
 
+router.post('/',(req, res) => {
+    res.post("Envoie de l'utilisateur")
+})
+
 // GET /users
 router.get('/', (req, res) => {
   res.send('Liste d’utilisateurs');
@@ -15,6 +19,8 @@ router.get('/', (req, res) => {
 router.delete('/:id', (req, res) => {
   res.send(`Utilisateur ${req.params.id} supprimé `);
 });
+
+
 
 
 module.exports = router;
