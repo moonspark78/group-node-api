@@ -6,11 +6,7 @@ router.post('/',(req, res) => {
     res.post("Envoie de l'utilisateur")
 })
 
-router.post('/',(req, res) => {
-    res.post("Envoie de l'utilisateur")
-})
-
-// GET /users
+// GET /users liste
 router.get('/', (req, res) => {
   res.send('Liste d’utilisateurs');
 });
