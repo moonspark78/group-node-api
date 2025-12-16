@@ -18,4 +18,11 @@ app.get("/status", (req, res) => {
   res.json({ status: "API is running" });
 });
 
+app.get("/version", (req, res) => {
+  res.json({
+    version: "1.0.0",
+    status: "ok"
+  });
+});
+
 module.exports = app;
